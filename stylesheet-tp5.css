@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+h1 {
+  font-family: 'Roboto', Sans-serif;
+  color: white;
+  font-size: 35px;
+}
+
+li {
+  font-family: Georgia;
+  color: white;
+}
+
+p {
+  color: white;
+}
+
+
+#ingredients li { 
+  font-family: Arial;
+}
+
+#ingredients li span {
+  font-style: italic;
+  color: #ADD8E6;
+}
+
+#ingredients li:nth-child(1){
+  color: red;
+}
+
+#equipment li:nth-child(1) {
+  color: red;
+}
+
+h4 {
+  color: #a9a9a9;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+body{
+  background-color: #2a2a2a;
+}
+
+a {
+  color: white;
+}
+
+img {
+  width: 800px;
+  height: 600px;
+  display: block;
+}
+
+@media (orientation: landscape) {
+ 
+  div {
+    display: inline-block;
+    float: left;
+    width: 32vw;
+  }
+  
+  p {
+    display: block;
+    font-size: 150%
+  }
+  
+  
+}
+
+@media screen and (max-width: 576px) {
+  
+  h1 {
+    color: orange;
+  }
+  
+  h4 {
+    color: orange;
+  }
+
+}
