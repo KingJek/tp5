@@ -1,9 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-h1 {
+div #title {
   font-family: 'Roboto', Sans-serif;
   color: white;
   font-size: 35px;
+}
+
+div #section {
+  color: orange;
+}
+
+.makeBig {
+  font-size: 55px;
+  color: white;
+  font-family: 'Roboto', Sans-serif;
+}
+
+.makeOrange {
+  color: orange;
+}
+
+ul, ol {
+  visibility: hidden;
+}
+
+.shown {
+  visibility: visible;
 }
 
 li {
